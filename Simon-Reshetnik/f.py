@@ -1,3 +1,15 @@
+## Мій варіант
+# Сума елементів, які менші за 5
+def v8(n, a):
+    summa = sum([x for x in a if x < 5])
+    # summa = int()
+    # for x in a:
+    #     if x < 5:
+    #         summa += x
+
+    return summa
+
+## Інші варіанти
 # Максимальне число
 def v1(n, a):
     return max(a)
@@ -55,16 +67,6 @@ def v7(n, a):
             ansv += a[i]
 
     return ansv
-
-# Сума елементів, які менші за 5
-def v8(n, a):
-    summa = sum([x for x in a if x < 5])
-    # summa = int()
-    # for x in a:
-    #     if x < 5:
-    #         summa += x
-
-    return summa
 
 # Сума елементів, які менші за 10
 def v9(n, a):
